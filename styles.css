@@ -21,7 +21,7 @@ body {
 }
 
 .song-3 {
-    background:linear-gradient(45deg, #978803f6, #342f02f6,#0c1c00f6 )
+    background:linear-gradient(45deg, #978803f6, #342f02f6, #0b1900f6)
 }
 
 .player {
@@ -72,4 +72,46 @@ button {
 
 button:hover {
     background: gray;
+}
+.info {
+    position: fixed;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    width: auto;
+}
+
+.info h6{
+    position: fixed;
+    bottom: 390px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    width: auto;
+}
+
+
+.me {
+    position: fixed;
+    bottom: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background: rgba(130,130,130,0.186); 
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    width: auto;
 }
