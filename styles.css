@@ -89,7 +89,7 @@ button:hover {
 
 .info h6{
     position: fixed;
-    bottom: 270px;
+    bottom: 290px;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px;
@@ -104,7 +104,7 @@ button:hover {
 
 .me {
     position: fixed;
-    bottom: 350px;
+    bottom: 400px;
     left: 50%;
     transform: translateX(-50%);
     padding: 20px;
